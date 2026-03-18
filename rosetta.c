@@ -32,7 +32,8 @@ int main(int argc, char **argv)
 	int ret = returny_func(&i, 0x42, 0x69, 0x31337);
 
 	// syscall interface
-	syscall(SYS_write, 1, "done:)\n", 7);
+	write(1, "done:)\n", 7);
+	printf("done:)\n");
 
 	return 32;
 }
