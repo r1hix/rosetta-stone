@@ -4,3 +4,4 @@
 .vscode/*
 mac
 mac-dump
+rosetta2.c
